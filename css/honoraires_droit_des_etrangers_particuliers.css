@@ -1,0 +1,200 @@
+main{
+    border-collapse: collapse;
+    margin: 0%;
+    width: 100%;
+    background-color: rgba(235,239,233);
+    padding-bottom: 100px;
+}
+
+.head_honoraires{
+    background-image: 
+    linear-gradient(to bottom, rgba(235,239,233, 0) 0%, rgb(235,239,233, 0.1)90%, rgb(235,239,233 ) 100%),
+    url(../pictures/honoraires_head.jpg);
+    background-size: cover;
+    padding-bottom: 180px;
+    padding-top: 180px;
+    max-width: 100%;
+}
+
+.ss_hono{
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 10px;
+    width: 440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+h1{
+    background-color: rgb(255, 255, 255, 0.9);
+    color: rgb(21, 40, 73);
+    border-radius: 10px;
+    width: 750px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 100px;
+    font-size: 30px;
+    line-height: 39px;
+    vertical-align: baseline;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.icone{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bloc_informations{
+    align-items: start;
+    padding-top: 50px;
+}
+
+.container_bloc_informations{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.informations{
+    display: block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 27.2px;
+    padding: 25px;
+    font-weight: 400;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 900;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.petit_paragraphe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+p{
+    padding-bottom: 15px;
+}
+
+table{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 80%;
+}
+
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 900;
+    text-align: start;
+    vertical-align: baseline;
+    padding-bottom: 25px;
+}
+
+
+td{
+    border: 1px solid black;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 75px;
+    vertical-align: baseline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tarif{
+    text-align: center;
+    width: 20%;
+}
+
+.grey_line{
+    background-color: rgba(144, 144, 144, 0.1);
+}
+
+@media screen and (min-width:60px) and (max-width:768px){
+    .head_honoraires{
+        padding: 100px 0px 0px;
+        margin: 0%;
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    h1{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 25px;
+        letter-spacing: normal;
+        width: fit-content;
+        color: rgb(14, 60, 32);
+        backdrop-filter: blur(20px);
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .ss_hono{
+        background-color: rgba(0, 0, 0, 0.5);
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        width: auto;
+        backdrop-filter: blur(20px);
+        margin-top: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    main{
+        padding-bottom: 50px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    .texte_responsive{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .petit_paragraphe{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .texte_tab_responsive{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

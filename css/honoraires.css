@@ -1,0 +1,205 @@
+main{
+    border-collapse: collapse;
+    margin: 0%;
+    width: 100%;
+    background-color: rgba(235,239,233);
+    padding-bottom: 100px;
+}
+
+body{
+    border-collapse: collapse;
+    margin:0px;
+    font-size: 100%;
+    font-family: 'Optima', sans-serif;
+}
+
+.head_honoraires{
+    background-image: 
+    linear-gradient(to bottom, rgba(235,239,233, 0) 0%, rgb(235,239,233, 0.1)90%, rgb(235,239,233 ) 100%),
+    url(../pictures/honoraires_head.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    max-width: 100%;
+}
+
+h1{
+    background-color: rgb(255, 255, 255, 0.9);
+    color: rgb(21, 40, 73);
+    border-radius: 10px;
+    width: 440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 39px;
+    line-height: 39px;
+    vertical-align: baseline;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.ss_hono{
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 10px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 21px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.separateur_feuille{
+    display: block;
+    text-align: center;
+}
+
+.bloc_informations{
+    align-items: start;
+    padding-top: 50px;
+}
+
+.informations{
+    display: block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 27.2px;
+    padding: 25px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.icone{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.boutons{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bouton_honos{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    background-color: rgb(36, 48, 85);
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.link_bouton_honos{
+    outline: none;
+    text-decoration: none solid rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.bouton_honos:hover{
+    box-shadow: 0px 5px 10px rgb(199, 199, 199);
+    background-color:rgba(36, 48, 85, 0.9);
+}
+
+.bouton_honos:active{
+    background-color: rgb(184, 183, 183, 0.8);
+}
+
+.bouton_honos:visited{
+    background-color: (184, 183, 183, 0.3);
+}
+
+.container_bloc_informations{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_bloc{
+    align-items: start;
+}
+
+.col_contact{
+    padding-top: 10px;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.p_contact{
+    font-size: 14px;
+    padding-right: 0;
+}
+
+@media screen and (max-width: 580px) {
+    main{
+        padding-bottom: 50px;
+    }
+    .head_honoraires{
+        padding: 100px 0px 0px;
+        margin: 0%;
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    h1{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 25px;
+        letter-spacing: normal;
+        width: fit-content;
+        color: rgb(14, 60, 32);
+        backdrop-filter: blur(20px);
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .ss_hono{
+        background-color: rgba(255, 255, 255, 0.5);
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        width: auto;
+        backdrop-filter: blur(20px);
+        margin-top: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    p{
+        font-size: 14px;
+    }
+    
+}

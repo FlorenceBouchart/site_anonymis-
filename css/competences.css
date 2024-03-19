@@ -1,0 +1,178 @@
+main{
+    border-collapse: collapse;
+    margin: 0%;
+    width: 100%;
+    background-color: rgb(235,239,233);
+}
+
+.head_competences{
+    background-image: 
+    linear-gradient(to bottom, rgba(235,239,233, 0) 0%, rgb(235,239,233, 0.1)90%, rgb(235,239,233 ) 100%),
+    url(../pictures/intervention.jpg);
+    background-size: cover;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin: 0px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+body{
+    margin:0px;
+    border-collapse: collapse;
+}
+
+h1{
+    font-size: 39px;
+    line-height: 39px;
+    vertical-align: baseline;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 75px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a_competence{
+    outline: none;
+    text-decoration: none solid;
+    color: black;
+}
+.a_competence:hover{
+    color: rgb(4, 2, 93);
+    opacity: 0.8;
+}
+.a_competence:active{
+    opacity: 0.5;
+}
+
+.icone{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:60px) and (max-width:575px){
+    .head_competences{
+        padding: 100px 0px 0px;
+        margin: 0%;
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    h1{
+        background-color: rgba(255, 255, 255, 0.2);
+        font-size: 25px;
+        letter-spacing: normal;
+        width: fit-content;
+        color: rgb(14, 60, 32);
+        backdrop-filter: blur(10px);
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+}
+
+/*CAROUSEL D'ARTICLES*/
+
+.carousel-item{
+    width: 100%;
+}
+.container_carousel{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    width: 700px;
+    border-radius: 80px;
+    justify-content: center;
+    background-color: black;
+}
+
+#Carousel_articles_environnement {
+    border-radius: 80px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.overlay_image{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    height: 300px;
+    width: 700px;
+    border-radius: 80px;
+    opacity: 0.4;
+}
+
+.lien_vers_article{
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    font-size: 40px;
+    font-weight: 700;
+    width: 700px;
+    padding: 0;
+    opacity: 1;
+    text-shadow: 0px 1px 15px rgb(0, 0, 0);
+}
+
+.lien_vers_article:link{
+    outline: none;
+    text-decoration: none solid;
+}
+
+.lien_vers_article:hover{
+    text-shadow: 0px 1px 10px rgb(7, 25, 23, 0.5);
+    border-width: 10px;
+    
+}
+
+.lien_vers_article:visited{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.lien_vers_article:active{
+    color: rgb(161, 170, 168);
+}
+
+@media screen and (max-width: 770px) {
+    .container_carousel, .overlay_image{
+        width: 400px;
+        height: 400px;
+    }
+    .lien_vers_article{
+        font-size: 30px;
+    }
+    }
+
+    @media screen and (max-width: 580px) {
+        .container_carousel, .overlay_image{
+                width: 250px;
+                height: 250px;
+            }
+            .lien_vers_article{
+                font-size: 20px;
+            }
+        }
+
+/* FIN CAROUSEL D'ARTICLES */

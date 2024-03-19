@@ -1,0 +1,150 @@
+footer{
+    background: rgb(255, 255, 255);
+    justify-content: space-around;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 0%;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.footlink{
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footlink:link {
+    color: rgb(56,169,91);
+}
+
+.footlink:visited {
+    color: rgb(39, 106, 60);
+    text-shadow: 2cap;
+}
+
+.footlink:focus {
+    color: rgb(44, 167, 83);
+}
+
+.footlink:hover {
+    text-decoration: underline;
+}
+
+.footlink:active {
+    color: rgb(2, 50, 17);
+}
+
+.footer_realisateur{
+    color:rgb(2, 50, 17);
+    text-align: start;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+}
+
+/*CAROUSEL D'ARTICLES*/
+.box_carousel_article{
+    background-color: hsl(34, 25%, 67%);
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.carousel-control-prev-icon_footer, .carousel-control-next-icon_footer{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    z-index: 5;
+}
+
+.container_carousel_footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 160px;
+    padding-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.carousel-indicators_footer{
+    position: absolute;
+    top: 130px;
+}
+
+#Carousel_articles_footer {
+    background-color: #b89a6d;
+    margin-bottom: 75px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+}
+
+#Carousel_articles_footer:hover{
+    background-color: #b89a6de4;
+}
+
+.carousel-item_footer{
+    position: relative;
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.lien_vers_article_carousel_footer{
+    color: white;
+    position: relative;
+    z-index: 3;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.lien_vers_article_carousel_footer:link{
+    outline: none;
+    text-decoration: none solid;
+}
+
+.lien_vers_article_carousel_footer:hover{
+    text-shadow: 0px 1px 10px rgb(7, 25, 23, 0.5);
+    
+}
+
+.lien_vers_article_carousel_footer:active{
+    color: rgb(161, 170, 168);
+}
+/* FIN CAROUSEL D'ARTICLES */
+
+@media screen and (min-width:60px) and (max-width:575px){
+.lien_vers_article_carousel_footer{
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.box_carousel_article{
+    display: none;
+}
+}

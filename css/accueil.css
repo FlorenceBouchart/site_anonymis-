@@ -1,0 +1,292 @@
+main{
+    border-collapse: collapse;
+    margin: 0px;
+    width: 100%;
+    background-color: rgb(235,239,233);
+    padding-bottom: 200px;
+}
+
+body{
+    border-collapse: collapse;
+    margin:0px;
+    width: 100%;
+    font-size: 100%;
+}
+
+.tete{
+    background-image: 
+    linear-gradient(to bottom, rgba(14, 60, 32, 0) 0%, rgb(14, 60, 32, 0.1)90%, rgb(14, 60, 32) 100%),
+    url("../pictures/head_accueil.jpg");
+    background-size:cover;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0px;
+    margin-top: 88px;
+    padding-top: 50px;
+    padding-bottom: 130px;
+    }
+
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    vertical-align: baseline;
+    border-collapse: collapse;
+}
+
+h2{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.unbloc3droits{
+    outline: none;
+    text-decoration: none solid;
+    color: white;
+}
+
+.unbloc3droits:hover{
+    opacity: 0.7;
+}
+
+.block_3droits{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(14, 60, 32);
+    color: white;
+}
+
+.exemples_de_domaines_dintervention{
+    margin: 0%;
+    padding: 0%;
+}
+
+.block_domaines{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(34, 68, 108, 0.95);
+    color: white;
+    border-radius: 5px;
+}
+
+h4{
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 900;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.5px;
+}
+
+h3{
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    vertical-align: baseline;
+    font-weight: 900;
+    text-decoration: none solid rgb(51, 51, 51) ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+}
+
+h5{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight:900;
+    vertical-align: top;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 75px;
+}
+
+p{
+font-size: 17px;
+line-height: 27.2px;
+font-weight: 400;
+vertical-align: baseline;
+text-align: center;
+margin: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.petit_paragraphe{
+    font-size: 14px;
+    line-height: 23.8px;
+    font-weight: 400;
+    vertical-align: baseline;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.moyens_dintervention{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #000000;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-top: dashed 5px rgba(14, 60, 32, 0.25) ;
+    border-bottom: dashed 5px rgba(14, 60, 32, 0.25) ;
+}
+
+.block_moyens{
+    padding: 10px;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 180px;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.7);
+    background-color: rgb(14, 60, 32);
+}
+
+.text_valeurs{
+    font-size: 17px;
+    line-height: 27.2px;
+    font-weight: 400;
+    vertical-align: baseline;
+    text-align: left;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section_valeurs{
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+
+.en_savoir_plus{
+    background: #c8b291;
+    text-align: right;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    text-decoration: none solid;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 45%;
+}
+
+.en_savoir_plus:hover{
+    background: rgba(200, 178, 145, 0.783);
+}
+
+.en_savoir_plus:active{
+    background: rgb(255, 255, 255);
+    color: #c8b291;
+}
+
+.icone{
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    h1{
+        font-size: 64px;
+        line-height: 64px;
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        width: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tete{
+        padding: 100px 0px 0px;
+        margin: 0%;
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    h1{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 25px;
+        letter-spacing: normal;
+        width: auto;
+        color: rgb(14, 60, 32);
+        backdrop-filter: blur(10px);
+    }
+    h2{
+        font-size: 15px;
+        width: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    h3{
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    h5{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .block_moyens{
+        width: 300px;
+        height: 300px;
+        padding-bottom: 30px;
+    }
+    .moyens_dintervention{
+        margin-left: 0px;
+        margin-right: 0%;
+        padding-left: 0px;
+        padding-right: 0%;
+    }
+
+    .block_domaines{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

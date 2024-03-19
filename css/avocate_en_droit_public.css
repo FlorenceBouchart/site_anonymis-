@@ -1,0 +1,309 @@
+main{
+    border-collapse: collapse;
+    margin: 0%;
+    width: 100%;
+    background-color: rgba(235,239,233);
+    padding-bottom: 200px;
+}
+
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 39px;
+    line-height: 39px;
+    vertical-align: baseline;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(18, 64, 60);
+}
+
+.head_droit_public{
+    background-image: 
+    linear-gradient(to bottom, rgba(235,239,233, 0) 0%, rgb(235,239,233, 0.1)90%, rgb(235,239,233 ) 100%),
+    url(../pictures/head_droit_public.jpg);
+    background-size: cover;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0px;
+    padding-top: 225px;
+    padding-bottom: 100px;
+}
+
+.ss_droit{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    vertical-align: baseline;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    vertical-align: baseline;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.icone{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*GRID*/
+
+.container_grid_droit_public{
+    padding: 0px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*FIN GRID*/
+
+/*SCHEMA 3 DROITS */
+
+.interactive_diagram_box {
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(18,64,60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interactive_diagram_box:hover{
+    border: 2px solid white;
+}
+
+.interactive_diagram_box:active{
+    border: 2px solid white;
+}
+
+details[open] .interactive_diagram_box{
+    border: 2px solid white;
+}
+
+.texte_interactive_diagram_box{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 12px;
+    margin: 0;
+}
+
+.bloc_déroulant{
+    display: inline-flex;
+    height: 500px;
+}
+
+.schema_3droits{
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 20px solid rgb(18,64,60); 
+    size: 300px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.positionConseil{
+    position: relative;  top: 10px;  left: 215px;
+    z-index: 2;
+    
+}
+
+.positionAudit{
+    position: relative;  top: 150px;  left: 290px;
+    z-index: 2;
+}
+
+.positionContentieux{
+    position: relative;  top: 150px;  left: -390px;
+    z-index: 2;
+    
+}
+
+.positionFormation{
+    position: relative;  top: 350px;  left: -200px;
+    z-index: 2;
+    
+}
+
+.positionIndemnisation{
+    position: relative;  top: 350px;  left: 100px;
+    z-index: 2;
+    
+}
+
+.Texteissudebulle{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    justify-content: justify;
+    position: absolute;  top: 90px;  left: 110px;
+    z-index: 1;
+    vertical-align: middle;
+    border-radius: 100%;
+    background-color: rgba(18,64,60,0.3);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.icone_schema3droits{
+    width: 30px;
+    height: 30px;
+}
+/* FIN SCHEMA 3 DROITS */
+
+@media screen and (max-width: 580px) {
+    main{
+        padding-bottom: 50px;
+    }
+    .head_droit_de_lenvironnement{
+        padding: 100px 0px 0px;
+        margin: 0%;
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    h1{
+        background-color: rgba(255, 255, 255, 0.2);
+        font-size: 25px;
+        letter-spacing: normal;
+        width: fit-content;
+        color: rgb(14, 60, 32);
+        backdrop-filter: blur(10px);
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .ss_droit{
+        background-color: rgba(255, 255, 255, 0.5);
+        font-size: 15px;
+        font-weight: 400;
+        width: auto;
+        backdrop-filter: blur(20px);
+        margin-top: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    h2{
+        font-size: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 50px;
+    }
+/* SCHEMA*/
+.positionConseil{
+    position: absolute;  top: 0px;  left: 110px;
+}
+
+.positionAudit{
+    position: absolute;  top: 80px;  left: 4px;
+}
+
+.positionContentieux{
+    position: absolute;  top: 80px;  left: 216px;
+}
+
+.positionFormation{
+    position: absolute;  top: 200px;  left: 175px;
+}
+
+.positionIndemnisation{
+    position: absolute;  top: 200px;  left: 45px;
+}
+
+.Texteissudebulle{
+    width: 200px;
+    height: 200px;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    position: absolute;  top: 45px;  left: 45px;
+}
+
+.texte_interactive_diagram_box{
+    font-size: 10px;
+    line-height: 15px;
+    padding-top: 10px;
+}
+.interactive_diagram_box {
+    width: 70px;
+    height: 70px;
+}
+
+.schema_3droits{
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    border: 5px solid rgb(18,64,60); 
+    margin-right: auto;
+    margin-left: auto;
+}
+.icone_schema3droits{
+    width: 15px;
+    height: 15px;
+}
+}
